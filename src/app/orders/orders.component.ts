@@ -3,7 +3,6 @@ import { Router } from '@angular/router';
 import { FlexModalService } from '../shared-components/flex-modal/flex-modal.service';
 import { Http } from '@angular/http';
 import { isNgTemplate } from '@angular/compiler';
-import { IncomingMessage } from 'http';
 interface Iorder {
   pid: string;
   image: string;
